@@ -1,6 +1,6 @@
-const appid = 'cd3c2bf95091673cd0a7f2d551cda6dd';
-const apikey = '4b434af0977dbe552e7f4a4e24e731d9';
-const hostApi = 'https://www.sjtzj.com';
+const appid = 'cd3c2bf95091673cd023251cda6dd';
+const apikey = '4b434af0977dbe552322323321d9';
+const hostApi = 'https://www.z01.com';
 
 const install = (Vue, vm) => {
 	Vue.prototype.$u.http.setConfig({

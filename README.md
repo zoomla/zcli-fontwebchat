@@ -49,7 +49,12 @@ QQ交流群号：
 ## 使用说明
 
 - 1.使用HBuilderX开发，源码包目录为`01-SoundCode`。
-- 2.接口配置文件为`common\http.interceptor.js`
+- 2.接口配置文件为`common\http.interceptor.js`,更改下面代码段（从逐浪CMS后台接口获得相应信息）：
+```
+const appid = 'cd3c2bf95091673cd023251cda6dd';
+const apikey = '4b434af0977dbe552322323321d9';
+const hostApi = 'https://www.z01.com';
+```
 - 3.获得小程序源码和接口key后，运行即可。
 
 
