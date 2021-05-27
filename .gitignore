@@ -1,0 +1,38 @@
+.DS_Store
+node_modules
+/dist
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+APK发布
+/5+app
+/.svn
+/bak
+*.zip
+*.rar
+/03-第1版VUE包之5+app
+/05-发布APK
+/06-备份bak
+/02-第1版VUE包
+/test
+/一期功能点 - 副本.png
+/04-第2版uni-app/unpackage
+unpackage
+/07-江西省自然资源厅工会app源码交付包

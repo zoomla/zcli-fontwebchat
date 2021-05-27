@@ -1,0 +1,294 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	// "condition": { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式(list 的索引项)
+	// 	"list": [{
+	// 		"name": "test", //模式名称
+	// 		"path": "pages/componentsC/test/index", //启动页面，必选
+	// 		"query": "uuid=c4bba940-f69e-11ea-a419-6bafda9d095e&__id__=1" //启动参数，在页面的onLoad函数里面得到
+	// 	}]
+	// },
+	"pages": [{
+		"path": "pages/home/index",
+		"style": {
+			"navigationBarTitleText": "字研所",
+			"enablePullDownRefresh": false,
+			"navigationBarBackgroundColor": "#181619"
+		}
+	}, {
+		"path": "pages/home/ucenter",
+		"style": {
+			"navigationBarTitleText": "会员中心",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/home/create",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/home/live",
+		"style": {
+			"navigationBarTitleText": "发现",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/home/enjoy",
+		"style": {
+			"navigationBarTitleText": "瘦金",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/home/enjoy_item",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+	}],
+	"subPackages": [{
+			"root": "pages/member",
+			"pages": [{
+				"path": "login",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "wxauth",
+				"style": {
+					"navigationBarTitleText": "微信登录验证",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "fav",
+				"style": {
+					"navigationBarTitleText": "我的收藏",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "myorder",
+				"style": {
+					"navigationBarTitleText": "我的订单",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "money",
+				"style": {
+					"navigationBarTitleText": "资金明细",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "pay",
+				"style": {
+					"navigationBarTitleText": "支付页面",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "setting",
+				"style": {
+					"navigationBarTitleText": "个人信息设置",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "jifen",
+				"style": {
+					"navigationBarTitleText": "积分管理",
+					"enablePullDownRefresh": false
+				}
+			}]
+
+		},
+		{
+			"root": "pages/shop",
+			"pages": [{
+				"path": "cart",
+				"style": {
+					"navigationBarTitleText": "购物车",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "getOrder",
+				"style": {
+					"navigationBarTitleText": "订单结算",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "shop",
+				"style": {
+					"navigationBarTitleText": "字研所线上商城",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "shop_class",
+				"style": {
+					"navigationBarTitleText": "商城列表",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "shop_item",
+				"style": {
+					"navigationBarTitleText": "商品详情",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pages/webview",
+			"pages": [{
+				"path": "z01-com",
+				"style": {
+					"navigationBarTitleText": "逐浪软件",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "zfont-list",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "sjtzj-com",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "73ic-com",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "pages/channel",
+			"pages": [{
+				"path": "hui",
+				"style": {
+					"navigationBarTitleText": "西江会-汇聚江右智慧",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "zhan",
+				"style": {
+					"navigationBarTitleText": "佶雅阁瘦金书法珍品展",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "biao",
+				"style": {
+					"navigationBarTitleText": "古法装裱局-字研社荣誉出品",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "edu",
+				"style": {
+					"navigationBarTitleText": "瘦金传习社",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "class",
+				"style": {
+					"navigationBarTitleText": "文章子列表",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "yuyue",
+				"style": {
+					"navigationBarTitleText": "预约参观江西字研所",
+					"enablePullDownRefresh": false
+				}
+			}    ,{
+                    "path" : "search",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "搜索结果页",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "class_super",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "文章父栏目列表",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
+	],
+	"preloadRule": { //分包加载
+		"pages/home/index": {
+			"network": "all",
+			"packages": ["__APP__", "pages/channel"]
+		},
+		"pages/shop/shop": {
+			"network": "all",
+			"packages": ["pages/shop"]
+		},
+		"pages/home/live": {
+			"network": "all",
+			"packages": ["pages/member"]
+		},
+		"pages/home/ucenter": {
+			"network": "all",
+			"packages": ["pages/webview"]
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "test",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#bebebf",
+		"backgroundColor": "#1A191F",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/images/foot_icon1.png",
+				"selectedIconPath": "static/images/foot_icon1_2.png",
+				"text": "精裱"
+			},
+			{
+				"pagePath": "pages/home/create",
+				"iconPath": "static/images/foot_icon2.png",
+				"selectedIconPath": "static/images/foot_icon2_2.png",
+				"text": "造字"
+			}, {
+				"pagePath": "pages/home/live",
+				"iconPath": "static/images/foot_icon3.png",
+				"selectedIconPath": "static/images/foot_icon3_2.png",
+				"text": "发现"
+			}, {
+				"pagePath": "pages/home/enjoy",
+				"iconPath": "static/images/foot_icon4.png",
+				"selectedIconPath": "static/images/foot_icon4_2.png",
+				"text": "瘦金"
+			},
+			{
+				"pagePath": "pages/home/ucenter",
+				"iconPath": "static/images/foot_icon5.png",
+				"selectedIconPath": "static/images/foot_icon5_2.png",
+				"text": "我的"
+			}
+		]
+	}
+}
